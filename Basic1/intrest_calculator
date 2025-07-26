@@ -1,7 +1,7 @@
 while True:
-    principal_amount = int(input("Enter Your Amount :"))
-    how_many_years = int(input("Enter How Many Years You Take :"))
-    yearly_intrest = int(input("Enter Intrest without Percentage :"))
+    principal_amount = float(input("Enter Your Amount :"))
+    how_many_years = float(input("Enter How Many Years You Take :"))
+    yearly_intrest = float(input("Enter Intrest without Percentage :"))
 
     if (how_many_years == 0):
         print("Years can't be 0")
