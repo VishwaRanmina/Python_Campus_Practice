@@ -25,7 +25,10 @@ while True:
         print("Result :",(num_1 ** num_2)) 
     
     elif(operator == "//"):
-        print("Result :",(num_1 // num_2))  
+        if(num_2 == 0):
+            print("Can't be devide by 0")
+        else:
+            print("Result :",(num_1 // num_2))  
         
     else:
         print("Enter Valid numbers Or Operator")
