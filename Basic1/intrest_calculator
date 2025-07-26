@@ -1,0 +1,11 @@
+while True:
+    principal_amount = int(input("Enter Your Amount :"))
+    how_many_years = int(input("Enter How Many Years You Take :"))
+    yearly_intrest = int(input("Enter Intrest without Percentage :"))
+
+    if (how_many_years == 0):
+        print("Years can't be 0")
+    else:
+        intrest = principal_amount*(yearly_intrest/100)
+        final_intrest = intrest*how_many_years
+        print("Total Intrest :",final_intrest,"%")
