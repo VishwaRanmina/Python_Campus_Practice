@@ -1,5 +1,10 @@
 while True:
     num_1 = int(input("Enter First Number :"))
+    if(num_1 == 00):
+        print("Exit from Programme.")
+        break
+    else:
+        None
     num_2 = int(input("Enter Second Number :"))
     operator = input("Enter Operator :")
 
