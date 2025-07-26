@@ -4,7 +4,7 @@ while True:
     yearly_intrest = float(input("Enter Intrest without Percentage :"))
 
     if (how_many_years == 0):
-        print("Years can't be 0")
+        print("Years can't be Zero")
     else:
         intrest = principal_amount*(yearly_intrest/100)
         final_intrest = intrest*how_many_years
